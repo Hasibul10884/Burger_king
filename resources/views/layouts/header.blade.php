@@ -9,7 +9,7 @@
         <!-- Stylesheets -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
-        <link rel="stylesheet" href="css/flaticon.css" />
+        <link rel="stylesheet" href="{{url('frontend/css/flaticon.css')}}" />
 
         <!-- Animate -->
         <link rel="stylesheet" href="{{url('frontend/css/animate.css')}}">
@@ -29,21 +29,7 @@
     <body data-spy="scroll" data-target="#navbar-menu" data-offset="100">
 
         <!-- Preloader --> 
-        <div id="loading">
-            <div id="loading-center">
-                <div id="loading-center-absolute">
-                    <div class="object" id="object_one"></div>
-                    <div class="object" id="object_two"></div>
-                    <div class="object" id="object_three"></div>
-                    <div class="object" id="object_four"></div>
-                    <div class="object" id="object_five"></div>
-                    <div class="object" id="object_six"></div>
-                    <div class="object" id="object_seven"></div>
-                    <div class="object" id="object_eight"></div>
-                    <div class="object" id="object_big"></div>
-                </div>
-            </div>
-        </div>
+        
         <!--End Preloader -->
         <!-- Navbar -->
         <nav class="navbar navbar-default bootsnav no-background navbar-fixed black">
