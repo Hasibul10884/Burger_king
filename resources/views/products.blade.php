@@ -2,7 +2,6 @@
 
 @section('content')
 
-
 <section class="food_section layout_padding">
     <div class="container">
       <div class="heading_container heading_center">
@@ -29,8 +28,8 @@
                   <img src="{{url('frontend/images/'.$product->image)}}" alt="">
                 </div>
                 <div class="detail-box">
-                  <a href="{{route('single_product,[id=>$product->id])}}">
-                    <h4 style="margin-bottom: 10px">
+                  <a href="{{route('single_product',['id'=>$product->id])}}">
+                    <h4 style="color:white margin-bottom: 10px">
                       {{$product->name}}
                     </h4>
                   </a>
@@ -62,38 +61,7 @@
                           <g>
                             <path d="M215.04,389.55c-1.024-28.16-24.576-50.688-52.736-50.688c-29.696,1.536-52.224,26.112-51.2,55.296
                          c1.024,28.16,24.064,50.688,52.224,50.688h1.024C193.536,443.31,216.576,418.734,215.04,389.55z" />
-                          </g>
-                        </g>
-                        <g>
-                        </g>
-                        <g>
-                        </g>
-                        <g>
-                        </g>
-                        <g>
-                        </g>
-                        <g>
-                        </g>
-                        <g>
-                        </g>
-                        <g>
-                        </g>
-                        <g>
-                        </g>
-                        <g>
-                        </g>
-                        <g>
-                        </g>
-                        <g>
-                        </g>
-                        <g>
-                        </g>
-                        <g>
-                        </g>
-                        <g>
-                        </g>
-                        <g>
-                        </g>
+                          
                       </svg>
                     </a>
                   </div>
