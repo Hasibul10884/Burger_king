@@ -18,6 +18,10 @@ use App\Http\Controllers\ProjectController;
 
 Route::get('/',[ProjectController::class,'index'])->name('home');
 
+Route::get('/single_product', function () {
+    return redirect('/');
+});
+
 
 Route::get('/single_product/{id}',[ProjectController::class,'single_product'])->name('single_product');
 
